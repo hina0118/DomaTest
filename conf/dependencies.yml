@@ -1,0 +1,12 @@
+# Application dependencies
+
+require:
+    - play
+    - org.seasar.doma -> doma 1.20.0
+
+repositories:
+    - seasar:
+        type: iBiblio
+        root: "http://maven.seasar.org/maven2/"
+        contains:
+            - org.seasar.doma -> *
